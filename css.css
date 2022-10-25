@@ -1,0 +1,106 @@
+* {
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  font-size: 1.3rem;
+  border-color: transparent;
+  border-radius: 20%;
+}
+
+body {
+  background-color: rgb(184, 80, 140);
+  text-align: center;
+  padding: 1rem 0 0rem;
+}
+
+.player1 {
+  position: relative;
+  height: 8rem;
+  background-color: rgb(114, 218, 174);
+  margin: 1rem 5%;
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10%;
+  z-index: 3;
+}
+.p1Score {
+  position: absolute;
+  font-size: 2.5rem;
+  left: 4rem;
+  top: 5rem;
+}
+section.p1Current {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  background-color: rgb(155, 115, 115);
+  padding: 1rem;
+  border-radius: 20%;
+  z-index: 5;
+}
+
+.player2 {
+  position: relative;
+  height: 8rem;
+  background-color: rgb(218, 190, 114);
+  margin: 1rem 5%;
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10%;
+  z-index: 3;
+}
+.p2Score {
+  position: absolute;
+  font-size: 2.5rem;
+  left: 4rem;
+  top: 5rem;
+  backdrop-filter: blur(2px);
+}
+section.p2Current {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  background-color: rgb(115, 122, 155);
+  padding: 1rem;
+  border-radius: 20%;
+  z-index: 5;
+}
+.touch {
+  position: relative;
+  bottom: 70px;
+  margin-bottom: -3rem;
+}
+
+.blur {
+  background-color: rgb(27, 23, 23);
+}
+.about {
+  position: fixed;
+  width: 100%;
+  bottom: 0rem;
+  text-align: center;
+  background-color: white;
+  color: blue;
+  padding: 0.5rem 0 0.5rem;
+}
+.winner {
+  position: fixed;
+  top: 18rem;
+  bottom: 0;
+  height: 8rem;
+  width: 100%;
+  background-color: yellow;
+  color: red;
+  padding-top: 5rem;
+  z-index: 100;
+}
+.hidden {
+  display: none;
+}
