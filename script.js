@@ -131,6 +131,7 @@ hold.addEventListener("click", function () {
 newgame.addEventListener("click", function () {
   makezero();
   blur_removed();
+  img_dice.src = "./Images/dice_0.png";
   turn = 1;
   p1Score.style.color = "black";
   p2Score.style.color = "black";
