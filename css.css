@@ -94,6 +94,7 @@ section.p2Current {
   background-color: white;
   color: blue;
   padding: 0.5rem 0 0.5rem;
+  z-index: 100;
 }
 .winner {
   position: fixed;
